@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bartman89/LuisRamirez/static/css/main.84c4192b.css",
+    "main.js": "/Bartman89/LuisRamirez/static/js/main.c4c9c69b.js",
+    "index.html": "/Bartman89/LuisRamirez/index.html",
+    "main.84c4192b.css.map": "/Bartman89/LuisRamirez/static/css/main.84c4192b.css.map",
+    "main.c4c9c69b.js.map": "/Bartman89/LuisRamirez/static/js/main.c4c9c69b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84c4192b.css",
+    "static/js/main.c4c9c69b.js"
+  ]
+}
