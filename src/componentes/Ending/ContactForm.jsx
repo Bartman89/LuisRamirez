@@ -24,7 +24,7 @@ function ContactForm() {
 
         let errors = {}
         let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
-        let regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/;
+        //let regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/;
         let regexComments = /^.{1,50}$/;    
         
      if (!regexName.test(form.nombre)){

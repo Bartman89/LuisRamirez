@@ -58,7 +58,7 @@ const [loading, setLoading] = useState(null)
       })
     
       setLoading(null)
-  }, [])
+  }, [API])
   
   const addEquipo = (equipo)=>{
     setLoading(true)
@@ -126,7 +126,7 @@ const [loading, setLoading] = useState(null)
     API.eliminarEquipo('equipos', options, idDelete)
       .then(response =>{
         if(!response.error){
-          const newEquipos = equipos.filter(equipo => equipo.id != idDelete)
+          const newEquipos = equipos.filter(equipo => equipo.id !== idDelete)
           setEquipos(newEquipos)
           setidDelete(null)
 

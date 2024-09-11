@@ -35,7 +35,7 @@ function CrudForm({addEquipo, editId, equipos, editEquipo, setEditId}) {
 
   const handleChange = (e)=>{
     
-    if(formData.nombre !="" && formData.pais !=""){
+    if(formData.nombre !=="" && formData.pais !==""){
       setDeshabilitado(false)
     }
 

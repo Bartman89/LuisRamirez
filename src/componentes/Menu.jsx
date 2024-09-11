@@ -10,6 +10,8 @@ function Menu() {
     <Link to='/contador' className='btn btn-primary m-1' >Contador</Link>
     <Link to='/crudApp' className='btn btn-primary m-1'>Crud App</Link>
     <Link to='/navbar' className='btn btn-primary m-1'>Navbar</Link>
+    <Link to='/todolist' className='btn btn-primary m-1'>Todo List</Link>
+    
         
     </div>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from 'react-bootstrap/Form';
+//import Form from 'react-bootstrap/Form';
 import Alert from 'react-bootstrap/Alert';
 import useForm2 from '../../hooks/useForm2'
 
@@ -19,7 +19,7 @@ const initialData ={
     let errors ={}
 
     let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
-    let regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/;
+    //let regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/;
     let regexComments = /^.{1,100}$/;
 
     if (!regexName.test(form.nombre)){
