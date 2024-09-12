@@ -25,7 +25,7 @@ const useForm2 = (initialData, onValidate)=>{
 
         if (Object.keys(err).length === 0){
             setLoading(true)
-            fetch("https://formsubmit.co/ajax/casa.obrera.de.bajio@gmail.com", {
+            fetch("https://formsubmit.co/ajax/ercblilxqbzorvwalu@nbmbb.com", {
                 method: "POST",
                 headers: { 
                     'Content-Type': 'application/json',
