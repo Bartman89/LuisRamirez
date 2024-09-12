@@ -58,7 +58,7 @@ const [loading, setLoading] = useState(null)
       })
     
       setLoading(null)
-  }, [API])
+  }, [])
   
   const addEquipo = (equipo)=>{
     setLoading(true)
