@@ -21,6 +21,18 @@
   animation: spiner 1s linear infinite;
 }
 
+.pie{
+  margin-top:20px;
+  height: 200px;
+  padding: 19px;
+  width: 990px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 7px;
+  text-align: center;
+  
+}
+
 @keyframes spiner {
   0% {
     transform: rotate(0deg);
@@ -36,4 +48,12 @@
   color: white;
   padding: 0rem 2rem;
   border-radius: 5px;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta según el tamaño que prefieras */
 }

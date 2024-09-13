@@ -10,6 +10,7 @@ import TodoList from './componentes/TodoList'
 import TodoList2 from './componentes/TodoList2'
 import TodoList3 from './componentes/TodoList3'
 import TodoList4 from './componentes/TodoList4'
+import Memorizacion from './componentes/Ending/Memorizacion'
 
 
 import {Routes, Route} from "react-router-dom";
@@ -39,6 +40,7 @@ function App() {
     <Route path='/todolist2' element={<TodoList2></TodoList2>}></Route>
     <Route path='/todolist3' element={<TodoList3></TodoList3>}></Route>
     <Route path='/todolist4' element={<TodoList4></TodoList4>}></Route>
+    <Route path='/memorizacion' element={<Memorizacion></Memorizacion>}></Route>
     </Routes>
     </div>
     </div>

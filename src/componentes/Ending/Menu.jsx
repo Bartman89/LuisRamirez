@@ -14,6 +14,7 @@ function Menu() {
      <Link className='btn btn-primary p-1 m-1' to="/pokemones">Pokemones</Link>
      <Link className='btn btn-primary p-1 m-1' to="/modales">Modales</Link>
      <Link className='btn btn-primary p-1 m-1' to="/contador">Contador</Link>
+     <Link className='btn btn-primary p-1 m-1' to="/memorizacion">Memorizacion</Link>
      
 
      
