@@ -37,7 +37,7 @@ console.log("Renderizando Hijo")
 
  <br />
  <br />
- <h5>Este valor esta siendo memorizado con <span className='fw-bold'>useMemo</span> a que su calculo conlleva un proceso pesado</h5>
+ <h5>Este valor esta siendo memorizado con <span className='fw-bold'>useMemo</span> ya que su calculo conlleva un proceso pesado</h5>
  <br />
 <h3 className='text-center text-danger'>{maxNumero}</h3>
 </div>

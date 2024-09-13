@@ -54,9 +54,9 @@ function Memorizacion() {
     </div>
 
        <div className='pie'>
-       <p>Usamos <span className='fw-bold'> memo</span>  para memorizar un componente completo y evitar se renderice cuando haya cambios en el componente padre.  <br />
+       <p>Usamos <span className='fw-bold'> memo</span>  para memorizar un componente completo y evitar se renderice cuando haya cambios en el componente padre.  <br /> <br />
        De igual Manera usamos <span className='fw-bold'>useCallback</span> para recordar funciones que le pasamos al componente hijo y evitar su renderizado cuando usemos otras funciones en el componente padre. <br /> <br />
-       De igual manera <span className='fw-bold'>useMemo</span> memoriza valores para evitar calculos innecesarios cuando se renderiza un componente.
+       Por otra parte <span className='fw-bold'>useMemo</span> memoriza valores para evitar calculos innecesarios cuando se renderiza un componente.
        </p>
         </div> 
         </div>
