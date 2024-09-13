@@ -26,6 +26,7 @@ function Memorizacion() {
 
   return (
     <>
+    <div className='container'>
     <h1 >Memorizacion</h1>
     <h2>(memo, useCallback y useMemo)</h2>
     <br />
@@ -58,7 +59,7 @@ function Memorizacion() {
        De igual manera <span className='fw-bold'>useMemo</span> memoriza valores para evitar calculos innecesarios cuando se renderiza un componente.
        </p>
         </div> 
-
+        </div>
     </>
   )
 }
