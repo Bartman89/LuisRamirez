@@ -23,7 +23,6 @@ function Menu() {
      <Link className='btn btn-primary p-1 m-1' to="/contador">Contador</Link>
      <Link className='btn btn-primary p-1 m-1' to="/memorizacion">Memorizacion</Link>
      <Link className='btn btn-primary p-1 m-1' to="/context">Context</Link>
-     <Link className='btn btn-primary p-1 m-1' to="/context">Context</Link>
      <a className='btn btn-primary p-1 m-1' href="https://pokedex-puce-seven.vercel.app/"  rel="noopener noreferrer">
 Pokedex</a>
 
